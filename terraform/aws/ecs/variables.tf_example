@@ -1,0 +1,58 @@
+variable "aws_access_key" {
+  type    = string
+  default = ""
+}
+
+variable "aws_secret_key" {
+  type    = string
+  default = ""
+}
+variable "aws_region" {
+  type    = string
+  default = ""
+}
+
+variable "vpc_cidr" {
+  type    = string
+  default = ""
+}
+variable "subnet_putuble_1_cidr" {
+  type    = string
+  default = ""
+}
+variable "availability_zone_1" {
+  type    = string
+  default = ""
+}
+
+variable "key_name" {
+  type    = string
+  default = ""
+}
+variable "instance_type" {
+  type    = string
+  default = ""
+}
+variable "AMI" {
+  type    = string
+  default = ""
+}
+
+variable "ssh" {
+  type    = string
+  default = ""
+}
+
+variable "env_name" {
+  type    = string
+  default = ""
+}
+
+variable "ecs_role" {
+  type    = string
+  default = ""
+}
+variable "instance_role" {
+  type    = string
+  default = ""
+}

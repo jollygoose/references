@@ -1,0 +1,14 @@
+[
+    {
+        "essential": true,
+        "image": "nginx",
+        "memoryReservation": 128,
+        "name": "nginx",
+        "portMappings": [
+            {
+                "containerPort": 80,
+                "hostPort": 0
+            }
+        ]
+    }
+]
